@@ -1,0 +1,703 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+    width: 100%;
+    background-color: #fac7c9; 
+    overflow-x: hidden;
+}
+
+#B{
+  width: 100%;
+  padding-top:3.5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+
+}
+#B ul{
+    display:flex;
+    justify-content: space-between
+    
+}
+
+.line{
+    background-color: #5a3c5c;
+    margin-inline-start: 0.5vw;
+}
+
+
+
+@font-face {
+  font-family: 'Seravek-Bold';
+  src: url('../font/Seravek-Bold.woff') format("woff"),
+         url('../font/Seravek-Bold.ttf') format("truetype"),
+         url('../font/Seravek-Bold.eot') format("embedded-opentype");
+}
+
+.aboutus{
+    color: #402342; 
+    font-family: Seravek-Bold;
+    font-size: 1vw;
+    letter-spacing:0.099vw;
+  }
+
+  .hottopic{
+    color: #402342; 
+    font-family: Seravek-Bold;
+    font-size: 1vw;
+    margin-left:6vw;
+    margin-right:3vw;
+    letter-spacing:0.099vw
+  }
+  
+  .daily{
+    color: #402342; 
+    font-family: Seravek-Bold;
+    font-size: 1vw;
+    margin-left:3vw;
+    letter-spacing:0.099vw
+  }
+
+  
+.burger{
+  display: none;
+}
+.topword{
+  display: none;
+}
+
+  .signup{
+    color: #402342; 
+    font-family: Seravek-Bold;
+    font-size: 1vw;
+    margin-right: 0; 
+    margin-left: 1.5vw;
+    letter-spacing:0.099vw;
+  }
+
+  .signin{
+    color: #402342; 
+    font-family: Seravek-Bold;
+    font-size: 1vw;
+    margin-right: 1vw; 
+    letter-spacing:0.099vw;
+}
+.test{
+  height: 45vw;
+  width: 100%;
+}
+
+.round2{
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  line-height:3.5vw;
+}
+
+.icon_logo{
+ padding-top: 4vw;
+  width: 30vw;
+}
+
+@font-face {
+  font-family: 'Krungthep';
+  src: url('../font/Krungthep.woff') format("woff"),
+         url('../font/Krungthep.ttf') format("truetype"),
+         url('../font/Krungthep.eot') format("embedded-opentype");
+}
+
+.haveyou{
+  color: #402342; 
+  display: flex;         
+  font-size: 1.1vw;
+  letter-spacing:0.23vw;
+  font-family:Krungthep;
+}
+.search{
+  width: 15vw;
+}
+.form-inline{
+  display:flex;
+  justify-content:center;
+  margin-top: -15vw;
+}
+
+
+.purplecloud{
+  width: 100%;
+  transform: translateY(77%);
+}
+
+.vw { 
+  position: relative;
+  width: 100%;
+  background: #ffffff; 
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+@font-face {
+  font-family: 'Seravek';
+  src: url('../font/Seravek.woff') format("woff"),
+         url('../font/Seravek.ttf') format("truetype"),
+         url('../font/Seravek.eot') format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'Seravek-Bol';
+  src: url('../font/Seravek-Bol.woff') format("woff"),
+         url('../font/Seravek-Bol.ttf') format("truetype"),
+         url('../font/Seravek-Bol.eot') format("embedded-opentype");
+}
+
+.aboutUs_2{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  color: #402342; 
+  font-size: 2.8vw;
+  font-family: Seravek-Bold;
+  letter-spacing:0.079vw;
+
+} 
+
+.line2{
+  width: 9.1vw;
+  height: 0.5vw;
+  background-color: #402342;
+  margin-top: 1vw;
+  margin-left: 45.5vw;
+  margin-bottom: 5vw;
+}
+
+.hottopic_2{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  color: #402342; 
+  font-size: 2.8vw;
+  font-family: Seravek-Bold;
+  letter-spacing:0.079vw;
+  margin-top: 6vw;
+}
+
+.line3{
+  width: 9.1vw;
+  height: 0.5vw;
+  background-color: #402342;
+  margin-top: 0.85vw;
+  margin-left: 45.5vw;
+  margin-bottom: 6vw;
+}
+
+.colortoplant{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.cllorli{
+padding-top: 12.5vw;
+margin-left: 10vw;
+padding-right: 0;
+display: flex;
+justify-content: center;
+width: 320px;
+}
+
+.colorset{
+padding-bottom: 0.5vw;
+}
+
+.colorline{
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.anili{
+  padding-top: 4vw;
+  margin-left: -0.1vw;
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  width: 320px;
+}
+
+.animalsline{
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.weirdset{
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.plantline{
+  align-content: flex-start;
+  flex-direction: column;
+  padding-left:0;
+}
+
+.panli{
+  padding-top: 12.5vw;
+  margin-right: 10.5vw;
+  display: flex;
+  justify-content: center;
+  width: 320px;
+}
+
+.round1{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 4vw;
+  width: 100%;
+  height: 12%;
+}
+
+.idea{
+  width:15vw;
+}
+.we{
+  width:15vw;
+}
+.store{
+  width:20vw;
+}
+.storeword{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  color: #402342; 
+  font-size: 1vw;
+  margin-top: 2.2vw;
+  font-weight: 900;
+}
+
+
+.line4{
+  width: 5.1vw;
+  height: 0.3vw;
+  background-color:#fac7c9;
+  margin-top: 0.7vw;
+  margin-left: 47.5vw;
+}
+
+
+.dailyhoroscope{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  color: #402342; 
+  font-size: 2.8vw;
+  font-family: Seravek-Bold;
+  letter-spacing:0.079vw;
+  margin-top: 8vw;
+  margin-left: 4vw;
+}
+
+.line5{
+  width: 10.5vw;
+  height: 0.5vw;
+  background-color:#402342;
+  margin-top: 2.1vw;
+  margin-left: 46vw;
+}
+
+.yoo{
+  position: relative;
+  width: 80%;
+  height:23.5%;
+  margin-top: 6.5vw;
+  padding-bottom: 0;
+  margin-bottom: 0vw;
+  display: flex;
+  justify-items: center;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.foot{
+  width: 100%;
+  height: auto;
+  background: #402342; 
+  padding: 5vw 0;
+}
+
+.container{
+/* padding-top: 5vw; */
+display: flex;
+}
+
+.word{
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.8vw;
+  font-family:Krungthep;
+  letter-spacing:0.23vw;
+}
+
+.contact{
+  letter-spacing:0.23vw;
+  margin-top: 0;
+}
+
+.footleft{
+  width: 100%;
+  text-align: center;
+  line-height: 5.5vw;
+}
+
+.footline1{
+  width: 0.5vw;
+  height:10vw;
+  background-color:#ffffff;
+}
+
+.finalword{
+  color: #ffffff;
+  font-family:Krungthep;
+  font-size: 1.3vw;
+  display: flex;
+  justify-content: center;
+  letter-spacing:0.2vw;
+  margin-top: 4vw;
+}
+
+@media(max-width:768px) {
+
+.collapse .navbar-collapse{
+  display: flex;
+  justify-content: center;
+  }
+
+  .round2{
+    position: absolute;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    line-height:2.5vw;
+  }
+
+.icon_logo{
+  width: 29.5vw; 
+  display: flex;
+  justify-content: center;
+}
+
+  .search{
+    width: 17.9vw; 
+  }
+
+  .whitecloud{
+    width: 100%;
+    height: 9.3Vw; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .vw{
+    width: 100%;
+  }
+
+  .line{
+    margin-inline-start: 0.5vw;
+}
+.aboutUs_2{
+  font-size: 3vw;
+  padding-right: 1.5vw;
+}
+
+.line2{
+  margin-left: 44.5vw;
+}
+
+.leftarrow {
+  width: 3.6vw; 
+  height:3.6vw; 
+}
+.rightarrow{
+  width: 3.6vw; 
+  height:3.6vw; 
+}
+
+
+.storeword{
+  display: flex;
+  justify-content: center;
+  padding-right:1.5vw;  
+  padding-top:0vw;
+}
+
+.line4{
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 46vw;
+  padding-left: 1.8vw;
+}
+
+.hottopic_2{
+  display: flex;
+  justify-content: center;
+  padding-right: 3vw;
+  font-size: 3vw;
+}
+.line3{
+  display: flex;
+  justify-content: center;
+  margin-left: 44.6vw;
+  padding-left: 0vw;
+  height: 0.6vw;
+}
+.dailyhoroscope{
+  font-size: 3vw;
+}
+
+.line5{
+padding-left: 0;
+margin-left: 45.5vw;
+}
+.word{
+  width: 100vw;
+}
+.footline1{
+  width: 8vw;
+  height: 0.2vw;
+  background-color: rgb(255, 255, 255);
+  margin: 3vw 0;
+}
+
+.burger{
+  display: none;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.foot{
+  height: auto;
+  padding: 2vw 0;
+}
+
+.round3{
+  display: none;
+}
+
+.yoo{
+  width: 100%;   
+  position: relative;
+  width: 80%;
+  height:23.5%;
+  margin-top: 6.5vw;
+  padding-bottom: 0;
+  margin-bottom: 0vw;
+  display: flex;
+  justify-items: center;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.bottom{
+  width: 100%; 
+}
+
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin:0.5px;
+  height: 100%;
+}
+.colorset{
+  padding-bottom: 0vw;
+  margin-bottom: 4px;
+}
+.sceneset{
+  margin-bottom: 4px;
+}
+.plantset{
+  margin-bottom: 4px;
+}
+.sec2_768{
+  display: none;
+}
+.box img{
+  width: 100%;
+
+}
+
+@media screen and (max-width:768px){
+  .colortoplant{
+    display: none;
+  }
+  .sec2_768{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 70px;
+    margin-top:30px;
+  }
+  .con_topic{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    grid-template-rows: repeat(4,30vw);
+    grid-column-gap: 10%;
+    grid-row-gap: 1vw;
+    justify-items: center;
+  }
+  .con_topic img{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .sec2_768{
+    padding: 20px 50px;
+    margin-top:0px;
+  }
+  .con_topic{
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(4,170px);
+    grid-row-gap: 0px;
+  }
+  .s_none{
+    display: none;
+  }
+  .vw{
+  width: 100%;
+  }
+  .idea{
+    width:25vw;
+  }
+  .we{
+    width:25vw;
+  }
+  .store{
+    width:30vw;
+  }
+
+.test{
+  height: 55vw;
+  width: 100%;
+}
+
+.line4{
+  width: 14vw;
+  height: 1vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 42.2vw;
+  padding-left: 1.8vw;
+}
+
+ .vw{
+  width: 100%;
+}
+.purplecloud{
+  display: none;
+}
+
+  .aboutUs_2{
+  padding-top: 4vw;
+  font-size: 3.5vw;
+  }
+
+.navbar-nav1{
+  display: none;
+}
+
+.round2{
+  margin-top: 4vw;
+  line-height: 8vw;
+}
+
+.hottopic_2{
+font-size: 3.5vw;
+}
+
+.yoo{
+  width: 100%;   
+  width: 80%;
+  height:20%;
+  padding-bottom: 0;
+  margin-bottom: 0vw;
+}
+.foot{
+  padding: 3vw 0;
+}
+.contact{
+  font-size: 1vw;
+}
+
+#B{
+  display: none;
+}
+
+.burger{
+  display: flex;
+  justify-self: self-start;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 0;
+}
+
+.sin{
+  color: #402342; 
+  font-family: Seravek-Bold;
+  font-size: 1vw;
+  letter-spacing:0.099vw;
+}
+
+.topword{
+  display: flex;
+  justify-content: flex-end;
+  margin-top:5.5vw;
+  margin-left: 56vw;
+}
+
+.line8{
+  height: 3vw;
+  width: 0.5vw;
+  background-color: #402342; 
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.round3{
+  display: flex;
+  flex-direction: row;
+}
+
+}
